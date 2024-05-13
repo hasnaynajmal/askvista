@@ -38,7 +38,7 @@ uploaded_file = st.file_uploader("Upload File.\n\n Supported Formats: (.sql .jso
 
 api_col, model_col = st.columns(2)
 
-model = model_col.selectbox('Select your OpenAI Model',('Select a Model','gpt-4-1106-preview','gpt-35-turbo-16k'))
+model = model_col.selectbox('Select your OpenAI Model',('Select a Model','gpt-4-1106-preview','gpt-3.5-turbo-16k','gpt-3.5-turbo','gpt-3.5-turbo-0125','gpt-3.5-turbo-1106'))
 
 openai_api = api_col.text_input(label='Enter your OpenAI API KEY', type='password')
 
