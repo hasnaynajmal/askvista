@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.header('Description')
-st.write('DataQuery Assistant is an advanced, GPT-powered tool designed to streamline daily database interactions for professionals and businesses. Leveraging the robust capabilities of the OpenAI API, this tool simplifies the complex process of data retrieval by allowing users to either upload their database or connect database directly to the tool.')
+st.write('AskVista is an advanced, GPT-powered tool designed to streamline daily database interactions for professionals and businesses. Leveraging the robust capabilities of the OpenAI API, this tool simplifies the complex process of data retrieval by allowing users to either upload their database or connect database directly to the tool.')
 
 st.header('Description')
 
